@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="icon" href="ico.ico">
+	<link rel="icon" href="svg.svg" type="img/svg+xml">
+	<link rel="apple-touch-icon" href="png.png">
+	<link rel="manifest" href="manifest.webmanifest">
+	<title>Studio Nicholson</title>
+</head>
+
+<body>
+	<div class="container-main">
+		<header class="header" id="home">
+			<div class="header__container container flex section-inner-flex">
+				<a href="index.html" class="logo">
+					Studio Nicholson
+				</a>
+				<button class="burger btn-reset" data-burger aria-label="Open menu" aria-expanded="false">
+					<span class="burger__line"></span>
+				</button>
+
+					<!-- Burger-menu -->
+
+				<nav class="nav" data-nav>
+					<ul class="nav__list flex">
+						<li class="nav__item"><a href="women.html" class="nav__link">Women</a></li>
+						<li class="nav__item"><a href="men.html" class="nav__link">Men</a></li>
+						<li class="nav__item"><a href="collection-new-men.html" class="nav__link">Collections</a></li>
+						<li class="nav__item"><a href="#popular" class="nav__link">Popular</a></li>
+						<li class="nav__item"><a href="#sale" class="nav__link">Sale</a></li>
+					</ul>
+				</nav>
+			</div> <!-- /.container -->
+
+				<!-- Cart-inner -->
+
+				<div class="cart" data-cart>
+					<button class="close btn-reset" data-close aria-label="Close cart" aria-expanded="false">
+						<span class="cart__close"></span>
+					</button>
+				</div>
+			</header>
+
+		<main>
+
+			<!-- Navbar -->
+
+	<nav class="navbar flex">
+		<ul class="navbar__list">
+			<li class="navbar__item">
+				<a class="navbar__link btn-reset" href="#home">
+					Home
+				</a>
+			</li>
+			<li class="navbar__item">
+				<a class="navbar__link btn-reset" href="account.html">
+					Account
+				</a>
+			</li>
+			<li class="navbar__item" data-cart-link>
+				<button class="navbar__link btn-reset">
+					Cart (2)
+				</button>
+			</li>
+		</ul>
+	</nav>
+
+			<section class="hero">
+				<div class="hero__wrapper">
+					<h1 class="visually-hidden">Studio Nicholson Main Page</h1>
+					<video autoplay muted loop preload="auto" class="hero__bg">
+						<source src="img/hero/hero-bg.mp4" type="video/mp4">
+						<source src="img/hero/hero-bg.webm" type="video/webm">
+						</video>
+							<div class="hero__btn-title">
+								<a href="collection-new-women.html" class="hero__btn-link btn-link">
+										<h2 class="hero__title section-title">
+										Women's spring '23 - 'Big city sensuality'
+										</h2>
+										<svg class="hero__btn-arrow btn-arrow">
+											<use xlink:href="sprite.svg#arrow"></use>
+										</svg>
+								</a>
+							</div>
+							<div class="hero__cover-btn flex">
+								<button class="hero__btn btn btn-reset">Men</button>
+								<button class="hero__btn btn btn-reset">Women</button>
+							</div>
+				</div>
+			</section>
+
+			<!-- Collection Men -->
+
+			<section class="collection">
+				<div class="container section-container">
+					<a href="collection-new-men.html" class="btn-link">
+						<h2 class="section-title">Men's spring '23</h2>
+						<svg class="btn-arrow">
+							<use xlink:href="sprite.svg#arrow"></use>
+						</svg>
+					</a>
+
+				<div class="collection__inner">
+					<div class="collection__content collection__content-grid grid">
+						<div class="collection__wrapper order-2">
+							<a href="prince-denim-shirt-ice-blue.html" class="collection__img-link">
+								<div class="collection__img-wrapper img-wrapper img-wrapper-zoom">
+									<img src="img/collection-men-main/img-2.webp" alt="Oversized denim shirt made from a soft bleached washed cotton" class="collection__img collection__img-zoom">
+								</div>
+							</a>
+							<div class="collection__cover">
+								<p class="collection__subtitle section-subtitle">
+									<a href="prince-denim-shirt-ice-blue.html" class="collection__link">Prince Denim Shirt</a>
+								</p>
+								<p class="collection__text section-text">Oversized denim shirt made from a soft bleached washed cotton.</p>
+								<p class="collection__price section-price">£350</p>
+							</div>
+						</div>
+
+						<a href="prince-denim-shirt-ice-blue.html" class="collection__img-link">
+						<div class="img-wrapper img-wrapper-zoom order-1">
+							<img src="img/collection-men-main/img-1.webp" alt="Oversized denim shirt made from a soft bleached washed cotton" class="collection__img collection__img-zoom">
+						</div>
+						</a>
+
+						<div class="collection__wrapper order-3">
+							<a href="prince-denim-shirt-ice-blue.html" class="collection__img-link">
+							<div class="collection__img-wrapper img-wrapper img-wrapper-zoom img-none">
+								<img src="img/collection-men-main/img-3.webp" alt="Oversized denim shirt made from a soft bleached washed cotton" class="collection__img collection__img-zoom">
+							</div>
+							</a>
+							<button class="collection__btn btn btn-reset">Show more</button>
+						</div>
+
+					</div> <!-- /.collection__content -->
+				</div> <!-- /.collection__inner -->
+				</div> <!-- /.container -->
+			</section>
+
+			<!-- Collection Women -->
+
+			<section class="collection">
+				<div class="container section-container">
+					<a href="collection-new-women.html" class="btn-link">
+						<h2 class="section-title">Women's spring '23</h2>
+						<svg class="btn-arrow">
+							<use xlink:href="sprite.svg#arrow"></use>
+						</svg>
+					</a>
+
+				<div class="collection__inner">
+					<div class="collection__content collection__content-grid grid">
+						<div class="collection__wrapper order-2">
+							<a href="judd-pant-madras.html" class="collection__img-link">
+							<div class="collection__img-wrapper img-wrapper img-wrapper-zoom">
+								<img src="img/collection-women-main/img-1.webp" alt="High-waisted front wrap volume pant made from a lightweight cotton" class="collection__img collection__img-zoom">
+							</div>
+							</a>
+							<div class="collection__cover">
+								<p class="collection__subtitle section-subtitle">
+									<a href="#" class="collection__link">Judd Pant</a>
+								</p>
+								<p class="collection__text section-text">High-waisted front wrap volume pant made from a lightweight cotton.</p>
+								<p class="collection__price section-price">£395</p>
+							</div>
+						</div>
+
+						<a href="judd-pant-madras.html" class="collection__img-link">
+						<div class="img-wrapper img-wrapper-zoom order-1">
+							<img src="img/collection-women-main/img-2.webp" alt="High-waisted front wrap volume pant made from a lightweight cotton" class="collection__img collection__img-zoom">
+						</div>
+						</a>
+
+						<div class="collection__wrapper order-3">
+							<a href="judd-pant-madras.html" class="collection__img-link">
+							<div class="collection__img-wrapper img-wrapper img-wrapper-zoom img-none">
+								<a class="collection__link-img" href="judd-pant-madras.html"><img src="img/collection-women-main/img-3.webp" alt="High-waisted front wrap volume pant made from a lightweight cotton" class="collection__img collection__img-zoom"></a>
+							</div>
+							</a>
+							<button class="collection__btn btn btn-reset">Show more</button>
+						</div>
+
+					</div> <!-- /.collection__content -->
+				</div> <!-- /.collection__inner -->
+				</div> <!-- /.container -->
+			</section>
+
+			<!-- Collection Swiper Sale -->
+
+			<section class="collection" id="sale">
+				<div class="container section-container">
+					<a href="#" class="btn-link">
+						<h2 class="section-title">Sale</h2>
+						<svg class="btn-arrow">
+							<use xlink:href="sprite.svg#arrow"></use>
+						</svg>
+					</a>
+
+				<div class="collection__inner">
+					<div class="collection__content swiper flex" style="cursor: grabbing;">
+						<div class="collection__wrapper swiper-line grid">
+							<div class="content-wrapper">
+								<div class="collection__img-wrapper img-wrapper img-wrapper-blur img-wrapper-btn">
+									<a class="collection__link-img" href="#"><img src="img/sale-main/img-1.webp" alt="Classic fit long sleeve shirt made from a textured and fluid washed wool Cordura" class="collection__img collection__img-blur"></a>
+									<button class="swiper-btn btn btn-reset">Show more</button>
+								</div>
+
+								<div class="collection__cover">
+									<p class="collection__subtitle section-subtitle">
+										<a href="#" class="collection__link">Blai Wool Short</a>
+									</p>
+									<p class="collection__price section-price section-price-old">£325</p>
+									<p class="collection__price section-price">£163</p>
+								</div>
+							</div>
+
+							<div class="content-wrapper">
+								<div class="collection__img-wrapper img-wrapper img-wrapper-blur img-wrapper-btn">
+									<a class="collection__link-img" href="#"><img src="img/sale-main/img-2.webp" alt="An easy style tapered pant made from a crisp tech cotton blend. Features include an elasticated waistband with zip fly, front pleats, two side pockets and a buttoned back jet" class="collection__img collection__img-blur"></a>
+									<button class="swiper-btn btn btn-reset">Show more</button>
+								</div>
+
+								<div class="collection__cover">
+									<p class="collection__subtitle section-subtitle">
+										<a href="#" class="collection__link">Gentile Pant</a>
+									</p>
+									<p class="collection__price section-price section-price-old">£275</p>
+									<p class="collection__price section-price">£138</p>
+								</div>
+							</div>
+
+							<div class="content-wrapper">
+								<div class="collection__img-wrapper img-wrapper img-wrapper-blur img-wrapper-btn">
+									<a class="collection__link-img" href="#"><img src="img/sale-main/img-3.webp" alt="Oversized lined padded coat made from a water repellent technical cotton outer and recycled polyester injection down" class="collection__img collection__img-blur"></a>
+									<button class="swiper-btn btn btn-reset">Show more</button>
+								</div>
+
+								<div class="collection__cover">
+									<p class="collection__subtitle section-subtitle">
+										<a href="#" class="collection__link">Basel Ecodown Jacket</a>
+									</p>
+									<p class="collection__price section-price section-price-old">£595</p>
+									<p class="collection__price section-price">£298</p>
+								</div>
+							</div>
+
+							<div class="content-wrapper">
+								<div class="collection__img-wrapper img-wrapper img-wrapper-blur img-wrapper-btn">
+									<a class="collection__link-img" href="#"><img src="img/sale-main/img-4.webp" alt="A Guernsey style knit crew neck made from a five gauge British Lambswool knit featuring an oversized, boxy fit and ribbed cuffs and hem" class="collection__img collection__img-blur"></a>
+									<button class="swiper-btn btn btn-reset">Show more</button>
+								</div>
+
+								<div class="collection__cover">
+									<p class="collection__subtitle section-subtitle">
+										<a href="#" class="collection__link">Hemyl Lambswool Knit</a>
+									</p>
+									<p class="collection__price section-price section-price-old">£350</p>
+									<p class="collection__price section-price">£175</p>
+								</div>
+							</div>
+
+							<div class="content-wrapper">
+								<div class="collection__img-wrapper img-wrapper img-wrapper-blur img-wrapper-btn">
+									<a class="collection__link-img" href="#"><img src="img/sale-main/img-5.webp" alt="Half zip knit jumper made from an extra fine 7 gauge lambswool" class="collection__img collection__img-blur"></a>
+									<button class="swiper-btn btn btn-reset">Show more</button>
+								</div>
+
+								<div class="collection__cover">
+									<p class="collection__subtitle section-subtitle">
+										<a href="#" class="collection__link">Gwyther Knit</a>
+									</p>
+									<p class="collection__price section-price section-price-old">£350</p>
+									<p class="collection__price section-price">£175</p>
+								</div>
+							</div>
+
+							<div class="content-wrapper">
+								<div class="collection__img-wrapper img-wrapper img-wrapper-blur img-wrapper-btn">
+									<a class="collection__link-img" href="#"><img src="img/sale-main/img-6.webp" alt="A showerproof padded vest made from a recycled polyester outer fabric and an eco wadding made from recycled plastic bottles. Details include a full-frontal rubberised button opening and one interior pocket" class="collection__img collection__img-blur"></a>
+									<button class="swiper-btn btn btn-reset">Show more</button>
+								</div>
+
+								<div class="collection__cover">
+									<p class="collection__subtitle section-subtitle">
+										<a href="#" class="collection__link">Idaho Down Vest</a>
+									</p>
+									<p class="collection__price section-price section-price-old">£275</p>
+									<p class="collection__price section-price">£138</p>
+								</div>
+							</div>
+						</div> <!-- /.sale__wrapper -->
+					</div> <!-- /.sale__content -->
+				</div> <!-- /.sale__inner -->
+				</div> <!-- /.container -->
+			</section>
+
+			<!-- Collection Men Video -->
+
+			<section class="collection-video">
+				<div class="container section-container">
+					<a href="collection-new-men.html" class="btn-link">
+						<h2 class="section-title">Men's spring '23 - Balance and discord</h2>
+						<svg class="btn-arrow">
+							<use xlink:href="sprite.svg#arrow"></use>
+						</svg>
+					</a>
+				</div> <!-- /.container -->
+					<div class="video-wrapper">
+						<video autoplay muted loop preload="auto" class="collection-video__video">
+							<source src="img/men-spring-video/men-spring-vid.mp4" type="video/mp4">
+							<source src="img/men-spring-video/men-spring-vid.webm" type="video/webm">
+							</video>
+					</div>
+			</section>
+
+			<!-- Collection Swiper Popular -->
+
+			<section class="collection" id="popular">
+				<div class="container section-container">
+					<a href="#" class="btn-link">
+						<h2 class="section-title">Popular</h2>
+						<svg class="btn-arrow">
+							<use xlink:href="sprite.svg#arrow"></use>
+						</svg>
+					</a>
+
+				<div class="collection__inner">
+					<div class="collection__content swiper flex" style="cursor: grabbing;">
+						<div class="collection__wrapper swiper-line grid">
+							<div class="content-wrapper">
+								<div class="collection__img-wrapper img-wrapper img-wrapper-blur img-wrapper-btn">
+									<a class="collection__link-img" href="#"><img src="img/popular-main/img-1.webp" alt="Midi A-line skirt made from a washed bleach denim" class="collection__img collection__img-blur"></a>
+									<button class="swiper-btn btn btn-reset">Show more</button>
+								</div>
+
+								<div class="collection__cover">
+									<p class="collection__subtitle section-subtitle">
+										<a href="#" class="collection__link">Soro Denim Skirt</a>
+									</p>
+									<p class="collection__price section-price">£325</p>
+								</div>
+							</div>
+
+							<div class="content-wrapper">
+								<div class="collection__img-wrapper img-wrapper img-wrapper-blur img-wrapper-btn">
+									<a class="collection__link-img" href="#"><img src="img/popular-main/img-2.webp" alt="High-waisted full length pant made from a structured sporty cotton" class="collection__img collection__img-blur"></a>
+									<button class="swiper-btn btn btn-reset">Show more</button>
+								</div>
+
+								<div class="collection__cover">
+									<p class="collection__subtitle section-subtitle">
+										<a href="#" class="collection__link">Navis Pant</a>
+									</p>
+									<p class="collection__price section-price">£475</p>
+								</div>
+							</div>
+
+							<div class="content-wrapper">
+								<div class="collection__img-wrapper img-wrapper img-wrapper-blur img-wrapper-btn">
+									<a class="collection__link-img" href="#"><img src="img/popular-main/img-3.webp" alt="Maxi belted shirt dress made from a light cotton poplin" class="collection__img collection__img-blur"></a>
+									<button class="swiper-btn btn btn-reset">Show more</button>
+								</div>
+
+								<div class="collection__cover">
+									<p class="collection__subtitle section-subtitle">
+										<a href="#" class="collection__link">Itarsi Dress</a>
+									</p>
+									<p class="collection__price section-price">£475</p>
+								</div>
+							</div>
+
+							<div class="content-wrapper">
+								<div class="collection__img-wrapper img-wrapper img-wrapper-blur img-wrapper-btn">
+									<a class="collection__link-img" href="#"><img src="img/popular-main/img-4.webp" alt="Relaxed fitting shirt made from a goat skin suede" class="collection__img collection__img-blur"></a>
+									<button class="swiper-btn btn btn-reset">Show more</button>
+								</div>
+
+								<div class="collection__cover">
+									<p class="collection__subtitle section-subtitle">
+										<a href="#" class="collection__link">Napp Suede Shirt</a>
+									</p>
+									<p class="collection__price section-price">£1,195</p>
+								</div>
+							</div>
+
+							<div class="content-wrapper">
+								<div class="collection__img-wrapper img-wrapper img-wrapper-blur img-wrapper-btn">
+									<a class="collection__link-img" href="#"><img src="img/popular-main/img-5.webp" alt="Midi short sleeve shirt dress made from our signature Italian crisp powder cotton" class="collection__img collection__img-blur"></a>
+									<button class="swiper-btn btn btn-reset">Show more</button>
+								</div>
+
+								<div class="collection__cover">
+									<p class="collection__subtitle section-subtitle">
+										<a href="#" class="collection__link">Albion Dress</a>
+									</p>
+									<p class="collection__price section-price">£375</p>
+								</div>
+							</div>
+
+							<div class="content-wrapper">
+								<div class="collection__img-wrapper img-wrapper img-wrapper-blur img-wrapper-btn">
+									<a class="collection__link-img" href="#"><img src="img//popular-main/img-6.webp" alt="Oversized Guernsey style knit crew neck made from a merino cotton" class="collection__img collection__img-blur"></a>
+									<button class="swiper-btn btn btn-reset">Show more</button>
+								</div>
+
+								<div class="collection__cover">
+									<p class="collection__subtitle section-subtitle">
+										<a href="#" class="collection__link">Hemyl Knit</a>
+									</p>
+									<p class="collection__price section-price">£325</p>
+								</div>
+							</div>
+						</div> <!-- /.popular__wrapper -->
+					</div> <!-- /.popular__content -->
+				</div> <!-- /.popular__inner -->
+				</div> <!-- /.container -->
+			</section>
+
+		</main>
+
+		<footer class="footer">
+			<div class="container">
+				<div class="acc">
+					<div class="acc__wrapper flex">
+						<div class="acc__section">
+							<div class="acc__header">Company
+								<svg class="btn-arrow btn-arrow-footer">
+									<use xlink:href="sprite.svg#arrow"></use>
+								</svg>
+							</div>
+							<ul class="acc__body">
+								<li><a href="#">About</a></li>
+								<li><a href="#">Contact</a></li>
+								<li><a href="#">Stores</a></li>
+							</ul>
+						</div>
+						<div class="acc__section">
+							<div class="acc__header">Support
+								<svg class="btn-arrow btn-arrow-footer">
+									<use xlink:href="sprite.svg#arrow"></use>
+								</svg>
+							</div>
+							<ul class="acc__body">
+								<li><a href="#">Shipping & Returns</a></li>
+								<li><a href="#">Gift Card</a></li>
+								<li><a href="#">Cookies & Privacy</a></li>
+								<li><a href="#">Terms & Conditions</a></li>
+							</ul>
+						</div>
+						<div class="acc__section">
+							<div class="acc__header">Social
+								<svg class="btn-arrow btn-arrow-footer">
+									<use xlink:href="sprite.svg#arrow"></use>
+								</svg>
+							</div>
+							<ul class="acc__body">
+								<li><a href="#">Instagram</a></li>
+								<li><a href="#">FaceBook</a></li>
+								<li><a href="#">Pinterest</a></li>
+								<li><a href="#">YouTube</a></li>
+								<li><a href="#">Spotify</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+
+				<div class="footer__inner flex">
+					<div class="footer__cover flex">
+						<ul class="footer__content flex">
+							<li class="footer__item">
+								<a href="#" class="footer__link">About</a>
+							</li>
+							<li class="footer__item">
+								<a href="#" class="footer__link">Contact</a>
+							</li>
+							<li class="footer__item">
+								<a href="#" class="footer__link">Stores</a>
+							</li>
+						</ul>
+
+						<ul class="footer__content flex">
+							<li class="footer__item">
+								<a href="#" class="footer__link">Shipping & Returns</a>
+							</li>
+							<li class="footer__item">
+								<a href="#" class="footer__link">Gift Card</a>
+							</li>
+							<li class="footer__item">
+								<a href="#" class="footer__link">Cookies & Privacy</a>
+							</li>
+							<li class="footer__item">
+								<a href="#" class="footer__link">Terms & Conditions</a>
+							</li>
+						</ul>
+
+						<ul class="footer__content flex">
+							<li class="footer__item">
+								<a href="#" class="footer__link">Instagram</a>
+							</li>
+							<li class="footer__item">
+								<a href="#" class="footer__link">FaceBook</a>
+							</li>
+							<li class="footer__item">
+								<a href="#" class="footer__link">Pinterest</a>
+							</li>
+							<li class="footer__item">
+								<a href="#" class="footer__link">YouTube</a>
+							</li>
+							<li class="footer__item">
+								<a href="#" class="footer__link">Spotify</a>
+							</li>
+						</ul>
+					</div>
+
+					<div class="footer__cover-form">
+						<p class="section-text">Sign up to receive news about collections, events and sales.</p>
+						<form class="form" action="#" method="post">
+							<input class="input" type="text" name="email" placeholder="Email">
+							<br>
+							<button class="footer__btn btn btn-reset">Sign up</button>
+						</form>
+					</div>
+				</div> <!-- /.footer__inner -->
+				<p class="c">©Studionicholson</p>
+			</div> <!-- /.container -->
+		</footer>
+	</div> <!-- /.container-main -->
+
+	<script src="js/main.min.js"></script>
+	<script src="js/main.js"></script>
+	<script src="js/swiper.js"></script>
+
+</body>
+</html>

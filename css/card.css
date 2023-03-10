@@ -1,0 +1,123 @@
+.card__wrapper {
+	margin-right: 30px;
+	grid-template-columns: repeat( auto-fit, minmax(380px, 1fr) );
+	grid-gap: 20px;
+}
+
+.card__wrapper-width {
+	flex-basis: 70%;
+}
+
+.card__inner {
+	justify-content: space-between;
+}
+
+.card__img {
+	cursor: pointer;
+	transition: transform .3s ease-in-out;
+	object-fit: cover;
+}
+
+.card__content {
+	position: sticky;
+	top: 0;
+	max-width: 365px;
+}
+
+.card__product {
+	font-size: 30px;
+}
+
+.card__price {
+	margin: 20px 0;
+	font-size: 20px;
+}
+
+.card__descr {
+	margin-bottom: 35px;
+}
+
+.card__color {
+	align-items: center;
+	margin-bottom: 35px;
+}
+
+.card__color span {
+	margin-right: 20px;
+}
+
+.btn-arrow-mini {
+	width: 20px;
+	height: 20px;
+}
+
+.card__btn {
+	width: 100%;
+}
+
+.card__form-input {
+	display: block;
+	opacity: 0;
+}
+
+.card__form-label {
+	margin: 0;
+	padding-top: 16px;
+	cursor: pointer;
+	width: 100%;
+}
+
+.card__form-input:checked + .card__form-label {
+	background-color: var(--black-color);
+	color: var(--white-color);
+}
+
+/* Size guide */
+
+.guide {
+   position: fixed;
+   right: 0;
+   top: 0;
+   z-index: 4000;
+   overflow-y: auto;
+   padding: 30px 0;
+   max-width: 800px;
+   height: 800px;
+   background-color: var(--grey-color);
+   transform: translateX(100%);
+   transition: transform 0.6s ease-in-out;
+}
+
+.guide__inner {
+	padding: 80px 0;
+	flex-wrap: nowrap;
+}
+.guide__item {
+	padding: 20px 30px;
+}
+
+.guide--visible {
+	transform: none;
+}
+
+.guide__close::before,
+.guide__close::after {
+	content: '';
+	position: absolute;
+	right: 20px;
+	top: 60px;
+	z-index: 4000;
+	display: block;
+	width: 30px;
+	height: 2px;
+	border-radius: 2px;
+	background: var(--black-color);
+}
+
+.guide__close::before {
+	transform: rotate(45deg);
+}
+
+.guide__close::after {
+	transform: rotate(-45deg);
+}

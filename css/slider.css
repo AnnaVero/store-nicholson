@@ -1,0 +1,64 @@
+.swiper {
+	display: flex;
+	width: 100%;
+	overflow-x: auto;
+	scroll-snap-type: x;
+	cursor: grab;
+	scroll-behavior: smooth;
+	scrollbar-width: none;
+}
+
+.swiper-line {
+	grid-template-columns: repeat(6, 400px);
+	grid-gap: 20px;
+	scroll-snap-align: start;
+   user-select: none;
+}
+
+.img-wrapper-blur {
+	position: relative;
+	max-width: 400px;
+	max-height: 520px;
+	overflow: hidden;
+}
+
+.swiper-btn {
+	opacity: 0;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	z-index: 1000;
+
+	margin-left: -95px;
+	margin-top: -25px;
+
+	border: 1px solid var(--white-color);
+	color: var(--white-color);
+
+	transition: background-color .2s linear, color .1s linear, opacity .2s linear;
+}
+
+.swiper-btn:hover {
+	background-color: var(--white-color);
+	color: var(--black-color);
+}
+
+.swiper-btn:active {
+	background-color: var(--white-color);
+	color: var(--black-color);
+}
+
+.collection__img-blur {
+	transition: filter .2s linear;
+}
+
+.img-wrapper-blur:hover .collection__img-blur {
+	filter: blur(2px);
+}
+
+.img-wrapper-btn:hover .swiper-btn {
+	opacity: 1;
+}
+
+
+

@@ -1,0 +1,30 @@
+.collection__content {
+	min-width: 100%;
+}
+
+.collection__content-grid {
+	grid-template-columns: 30% 37% 30%;
+	grid-gap: 20px;
+}
+
+.collection__btn {
+	margin: 30px auto;
+}
+
+.img-wrapper-zoom {
+	display: inline-block;
+	overflow: hidden;
+}
+
+.img-wrapper-zoom img {
+	display: block;
+	transition: transform .3s ease-in-out;
+}
+
+.img-wrapper-zoom img:hover {
+	transform: scale(1.05);
+}
+
+::-webkit-scrollbar {
+	display: none;
+}
